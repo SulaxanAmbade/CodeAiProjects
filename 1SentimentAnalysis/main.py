@@ -5,7 +5,7 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import cleantext
 import matplotlib.pyplot as plot
 
-df = pd.read_csv('Reviews.csv')
+df = pd.read_csv('Reviews.csv') 
 review_text = df['Text']
 analyser = SentimentIntensityAnalyzer()
 
